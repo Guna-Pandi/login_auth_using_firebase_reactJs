@@ -1,0 +1,90 @@
+.login-page {
+  height: 100vh;
+  width: 100%;
+}
+.img-container1 {
+  height: 100%;
+  position: relative;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  height: 100vh;
+  flex-direction: column;
+}
+.backimg {
+  width: 100%;
+  height: 100%;
+}
+
+.both-part {
+  top: 10rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 30rem;
+  margin: auto;
+  width: 40%;
+  background-color: #fbb1c3ad;
+  border-style: solid;
+  border-color: #ff6f91;
+}
+.header-part {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.form-group1 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.form-lable1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.form-input1 {
+  width: 100%;
+  border-radius: 10px;
+  height: 40px;
+  display: flex;
+  border-style: solid;
+  border-color: #ff6f91;
+}
+.addButton {
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  border-radius: 9px;
+  padding: 15px 10px 15px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 15rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  
+}
+.add-btn {
+  padding-top: 25px;
+  display: flex;
+
+  justify-content: center;
+}
+.add-txt {
+  font-size: 20px;
+  text-align: center;
+}
+.logo {
+  position: absolute;
+  display: flex;
+  left: 19px;
+  top: 19px;
+  animation: flip;
+  animation-duration: 2s;
+}
+.logo1 {
+  height: 5rem;
+}
